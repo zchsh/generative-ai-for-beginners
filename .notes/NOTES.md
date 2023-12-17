@@ -54,6 +54,9 @@ conda activate ai4beg
 - I wanted a way to compare this side-by-side with the auto-generated subtitles, so I used `yt-dlp` to grab the auto-generated subtitles as a `.vtt` file, like `yt-dlp --write-auto-subs --no-download vf_mZrn8ibc`. And then converted the resulting `.vtt` file to `.srt` with `ffmpeg`
 - The subtitle files were still annoying to look at side-by-side since they had a lot of timestamp cruft, and repeated text from timestamp to timestamp. I realized I really wanted to see these generated subtitles as a stream of continuous plain text. I wanted something analogous to a plain text script document the video maker might read, rather than plain text telling a playback application what text to display and when.
 - Pursuing what I wanted, I noodled on [zchsh/srt-to-plain-text](https://github.com/zchsh/srt-to-plain-text) until I had something I'm happy enough with to demonstrate the difference between YouTube's auto-generated captions and captions generated with OpenAI Whisper.
+- Pretty happy with the results here! Microsoft should probably consider using OpenAI Whisper for their subtitle generation for these videos. It might make this educational material a little more accessible!
+
+![A screenshot showing how OpenAI Whisper manages to generate much more accurate subtitles than YouTube's automatically generated subtitles.](img/2023-12-17-openai-whisper-vs-youtube-generated.png)
 
 ### Reading Lesson 01
 
