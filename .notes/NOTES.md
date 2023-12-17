@@ -101,3 +101,35 @@ We'd collaborate with educational institutions to integrate our platform into th
 
 In summary, our dream AI startup would redefine education, leveraging AI to create tailored, engaging learning experiences that empower students, support educators, and revolutionize the educational landscape.
 ```
+
+#### My actual assignment response
+
+> Try to identify an area where you would add generative AI today that doesn't have it. How would the impact be different from doing it the "old way", can you do something you couldn't before, or are you faster? Write a 300 word summary on what your dream AI startup would look like and include headers like "Problem", "How I would use AI", "Impact" and optionally a business plan.
+
+I love writing and drawing on paper, especially in the initial stages of letting ideas flow through me. What I don't love about paper is that it does _not_ feel like the ideal medium on which to _refine_ many of the ideas I've typically enjoyed exploring. The digitization process still feels clunky, and I feel like it's harder than it should be to link together the "work" (if it can be called that) that I do on paper and the "work" that I do in digital mediums.
+
+```markdown
+## Problem
+
+Paper is a lovely medium for thought. It's widely appreciated as being an awesome tool to explore ideas, but feels less widely used. In my experience, I tend to avoid using paper as a medium for thought because feels difficult to integrate it with digital tooling. It feels like many of us are abandoning or underusing paper as a medium for serious thought not because it is failing us as a tool, but because our digital tools have failed to provide efficient ways to pick up the work we've done on paper. Instead, we have only the tedious processes of manually scanning our work to yield pure image data, or manually re-typing our work to yield pure plain text data.
+
+## How I would use ~AI~ digital tooling to solve this problem
+
+> **Note** I'm not sure "AI" is really what I'm using here, and I don't really care for the term because I feel like I can never pin down the definition, so I'm just going to say digital tooling.
+
+- Make it easier for people to train a custom image recognition neural network on their own specific style of handwriting
+- Establish a kind of shorthand or syntax for hand-written documents, that's both human readable and parse-able when digitized. Like markdown, but for paper.
+- Use subtle but unambiguous markers that can be placed or printed on any piece of paper to make it easier for computer vision tools to accurately come up with a flattened, scan-like image of the piece of paper.
+- Use the aforementioned custom handwriting recognition algorithms, as well as the aforementioned custom syntax, to robustly convert hand-written content into a more flexible combination of metadata, plain text, and image data
+- Build some demo workflows to automatically do stuff with the ingested metadata, plain text, and image data. For example, automatically add a paper note to a specific location in a folder on my computer, with the file location based on metadata scanned off of the paper.
+
+## Impact
+
+Selfishly, this is something I just want for myself, and that's all the impact I need to care about for now to be motivated to pursue this idea further.
+
+## Business Plan
+
+Make it open source and hope that people toss money in a digital tip jar. If they do, then use that to fund further development. If they don't, maybe people will still want to keep the project alive with open source contributions... but if not, then either make it a labor or love, or abandon the project and be explicit about the fact that it's no longer maintained.
+
+In other words, no business plan, oops.
+```
